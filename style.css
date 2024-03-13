@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 40px;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 900;
+}
+.logo a img {
+  width: 16px;
+}
+.navList {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.navList ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.navList ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navList ul li:hover {
+  transform: scale(1.02);
+  transition: 1s ease-in-out;
+}
+
+.navList button {
+  border: 0;
+  background: black;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.navList button:hover {
+  transform: scale(1.02);
+  transition: 1s ease-in-out;
+  color: black;
+  background: rgb(137, 136, 136);
+}
+.landingPageContainer {
+  padding: 20px 40px;
+}
+.landingPage {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 90vh;
+  padding: 20px 10px 0px 10px;
+  border-radius: 20px;
+  background: #f4f6f5;
+}
+.imgcontainer {
+  flex: 0.5;
+  display: flex;
+}
+.textContainer {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 40px;
+}
+.textContainer h1 {
+  font-size: 60px;
+  font-weight: 900px;
+  width: 50%;
+  line-height: 75px;
+}
+.textContainer p {
+  font-size: 22px;
+}
+.textBtn {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+.btn {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 13px;
+  border: 0;
+}
+.btn:hover {
+  transform: scale(1.02);
+  transition: 1s ease-in-out;
+  color: black;
+  background: rgb(137, 136, 136);
+}
+.textBtn img {
+  width: 15%;
+}
+.imgcontainer {
+  flex: 0.5;
+  display: flex;
+}
+.spani {
+  background-image: url(Rectangle\ 3.png);
+  padding-right: 10px;
+  display: flex;
+  background-size: cover;
+}
+.span2 {
+  background-image: url(Rectangle\ 6.png);
+  padding-right: 30px;
+  background-size: cover;
+}
+.landingpagefooter {
+  background: #ebd96b;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logocontainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.logocontainer img {
+  width: 10%;
+}
+.arrivalcontainer {
+  margin-top: 20px;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.arrivalText {
+  position: relative;
+}
+
+.arrivalText h1 {
+  font-size: 38px;
+  font-weight: 900;
+}
+.arrivalText img {
+  position: absolute;
+  bottom: 5px;
+  left: 160px;
+  width: 12%;
+  z-index: -1;
+}
+.cardsContainer {
+  display: flex;
+  gap: 20px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+.cardImg img {
+  width: 100%;
+}
